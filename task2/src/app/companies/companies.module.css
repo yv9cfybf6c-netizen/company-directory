@@ -1,0 +1,170 @@
+.main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1.25rem 3rem;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  color: #1a1a1a;
+}
+
+.header {
+  margin-bottom: 1.75rem;
+}
+
+.header h1 {
+  margin: 0 0 0.35rem;
+  font-size: 1.75rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.subtitle {
+  margin: 0;
+  color: #666;
+  font-size: 0.95rem;
+}
+
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem 1rem;
+  align-items: flex-end;
+  margin-bottom: 1.25rem;
+  padding: 1rem 1.15rem;
+  background: #f6f7f9;
+  border-radius: 10px;
+  border: 1px solid #e5e7eb;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  min-width: 180px;
+}
+
+.field label {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #555;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.field input,
+.field select {
+  padding: 0.5rem 0.7rem;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  background: #fff;
+  min-width: 200px;
+}
+
+.field input:focus,
+.field select:focus {
+  outline: 2px solid #3b82f6;
+  outline-offset: 1px;
+  border-color: #3b82f6;
+}
+
+.btn {
+  padding: 0.55rem 1.2rem;
+  background: #2563eb;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  height: 38px;
+}
+
+.btn:hover {
+  background: #1d4ed8;
+}
+
+.reset {
+  align-self: center;
+  font-size: 0.9rem;
+  color: #6b7280;
+  text-decoration: underline;
+  margin-left: 0.25rem;
+}
+
+.meta {
+  margin: 0 0 0.75rem;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.tableWrap {
+  overflow-x: auto;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  background: #fff;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+
+.table th {
+  text-align: left;
+  padding: 0.7rem 0.85rem;
+  background: #f3f4f6;
+  border-bottom: 1px solid #e5e7eb;
+  font-weight: 600;
+  color: #374151;
+  white-space: nowrap;
+}
+
+.table td {
+  padding: 0.6rem 0.85rem;
+  border-bottom: 1px solid #f0f0f0;
+  vertical-align: top;
+}
+
+.table tbody tr:hover {
+  background: #f9fafb;
+}
+
+.name {
+  font-weight: 500;
+  max-width: 220px;
+}
+
+.num {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+.phone {
+  white-space: nowrap;
+  font-size: 0.85rem;
+}
+
+.link {
+  color: #2563eb;
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.empty {
+  text-align: center;
+  padding: 2rem !important;
+  color: #9ca3af;
+}
+
+.error {
+  padding: 1rem 1.15rem;
+  background: #fef2f2;
+  border: 1px solid #fecaca;
+  border-radius: 8px;
+  color: #991b1b;
+  font-size: 0.95rem;
+}
